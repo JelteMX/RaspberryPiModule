@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mendix.com/package/1.0/">
+  <modelerProject xmlns="http://www.mendix.com/modelerProject/1.0/">
+    <module name="RaspberryPi" />
+    <projectFile path="project.mpr" />
+    <files>
+      <file path="javasource\raspberrypi\RaspberryPi.java" />
+      <file path="userlib\junit.jar" />
+      <file path="userlib\pi4j-core-javadoc.jar" />
+      <file path="userlib\pi4j-core-sources.jar" />
+      <file path="userlib\pi4j-core.jar" />
+      <file path="userlib\pi4j-device-javadoc.jar" />
+      <file path="userlib\pi4j-device-sources.jar" />
+      <file path="userlib\pi4j-device.jar" />
+      <file path="userlib\pi4j-example-javadoc.jar" />
+      <file path="userlib\pi4j-example-sources.jar" />
+      <file path="userlib\pi4j-example.jar" />
+      <file path="userlib\pi4j-gpio-extension-javadoc.jar" />
+      <file path="userlib\pi4j-gpio-extension-sources.jar" />
+      <file path="userlib\pi4j-gpio-extension.jar" />
+      <file path="javasource\raspberrypi\actions\GPIO_Digital_Output_SetState.java" />
+      <file path="javasource\raspberrypi\actions\GPIO_Digital_Output_Toggle.java" />
+      <file path="javasource\raspberrypi\actions\GPIO_Digital_Output_GetState.java" />
+      <file path="javasource\raspberrypi\actions\GPIO_Analog_Output.java" />
+      <file path="javasource\raspberrypi\actions\Provision_GPIO_Output.java" />
+      <file path="javasource\raspberrypi\actions\UnprovisionGPIO.java" />
+    </files>
+  </modelerProject>
+</package>
