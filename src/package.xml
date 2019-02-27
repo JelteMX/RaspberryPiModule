@@ -5,6 +5,7 @@
     <projectFile path="project.mpr" />
     <files>
       <file path="javasource\raspberrypi\RaspberryPi.java" />
+      <file path="javasource\raspberrypi\TMP102.java" />
       <file path="userlib\junit.jar" />
       <file path="userlib\pi4j-core-javadoc.jar" />
       <file path="userlib\pi4j-core-sources.jar" />
@@ -24,6 +25,10 @@
       <file path="javasource\raspberrypi\actions\GPIO_Analog_Output.java" />
       <file path="javasource\raspberrypi\actions\Provision_GPIO_Output.java" />
       <file path="javasource\raspberrypi\actions\UnprovisionGPIO.java" />
+      <file path="javasource\raspberrypi\actions\TMP102_GetTemperature.java" />
+      <file path="javasource\raspberrypi\actions\ConvertCelsiusToKelvin.java" />
+      <file path="javasource\raspberrypi\actions\ConvertCelsiusToFarenheit.java" />
+      <file path="javasource\raspberrypi\actions\ConvertCelsiusToRankine.java" />
     </files>
   </modelerProject>
 </package>

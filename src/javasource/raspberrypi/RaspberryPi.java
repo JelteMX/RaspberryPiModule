@@ -2,10 +2,12 @@ package raspberrypi;
 
 import raspberrypi.proxies.Raspberry_GPIO_Port;
 import raspberrypi.proxies.Raspberry_Pull_Resistance;
+import raspberrypi.proxies.Temperature_Unit;
 
 import com.pi4j.io.gpio.Pin;
 import com.pi4j.io.gpio.PinPullResistance;
 import com.pi4j.io.gpio.RaspiPin;
+import com.pi4j.temperature.TemperatureScale;
 
 public class RaspberryPi {
 
@@ -62,6 +64,21 @@ public class RaspberryPi {
 			break;
 		}
 		return res;
+	}
+	
+	public static TemperatureScale getTemperatureScale(Temperature_Unit unit) {
+		TemperatureScale scale = TemperatureScale.CELSIUS;
+		
+		switch (unit) {
+		case CELSIUS: scale = TemperatureScale.CELSIUS;
+		case FARENHEIT: scale = TemperatureScale.FARENHEIT;
+		case KELVIN: scale = TemperatureScale.KELVIN;
+		case RANKINE: scale = TemperatureScale.RANKINE;
+		default:
+			break;
+		}
+		
+		return scale;
 	}
 	
 }
